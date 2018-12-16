@@ -1,0 +1,371 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+	font-family: "Open Sans", OpenSans, sans-serif;
+	font-size: 10px;
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 5.5em;
+	font-weight: 200;
+	text-align: left;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 16px;
+	margin-top: 32.16px
+}
+
+
+h2 {
+  font-size: 2.5em;
+	padding-top: 1rem;
+	font-weight: 200;
+}
+
+h3 {
+	font-size: 1.9em;
+}
+p span{
+	color:red;
+}
+
+#section2 h2{
+	font-size:3.5em;
+}
+
+#section3 p{
+	font-size: 1.5em;
+	text-align: center;
+}
+
+#section3 h2 {
+	font-size:3.5em;
+}
+
+/* BARRA DE NAVEGACION -------------------------------------------------*/
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 40px;
+  font-size: 1.1em;
+}
+
+nav a {
+  /* background-color: rgb(70, 193, 33); */
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  height: 40px;
+}
+
+.top-left{
+	/* background-color: rgb(16, 102, 201); */
+	float:left;
+	text-align: left;
+	height:40px;
+}
+
+.top-links {
+	/* background-color: rgb(174, 33, 193); */
+	float:right;
+  	display: flex;
+  	padding: 0;
+  	margin: 0 10px 0 0;
+}
+
+.top-links li {
+	/* background-color: rgb(233, 229, 24); */
+  display: flex;
+  margin: 0 10px;
+}
+
+/* HEADER------------------------------------------------------------- */
+
+header {
+	background-color:#245a79;
+}
+
+	/* BUSCADOR------------------------------------------------------------- */
+
+	.borange{
+		background-color: #f09233;
+	}
+
+	#buscador{
+		/* border:6px solid rgb(197, 194, 29); */
+		height:40px;
+		width: 100%;
+	}
+
+	.logo{
+		border:4px solid rgb(60, 29, 197);
+		float: left;
+		height: 32px;
+		width: 95px;
+		margin:auto;
+		margin-top:0px;	
+		margin-left:17px;
+	}
+
+
+	.osob{
+		/* border:4px solid rgb(27, 119, 96); */
+		height: 32px;
+		width: 3%;
+		float: right;
+		margin:auto;
+		margin-top:0;
+		position:relative;
+	}
+
+	.barrab{
+		border:2px solid rgb(158, 155, 155);
+		background-color:#1e4861;
+		height:32px;
+		width: 85%;
+		float:left;
+		margin:auto;
+		margin-top:3px;
+		padding-left:15px;
+		padding-top:1px;
+		opacity: 0.8;	
+		font-size:15px;
+	}
+
+	#findp{
+		color: rgb(153, 150, 150);
+		font-size:15px;
+		margin:auto;
+		margin-top: 7px;
+		height:15px;
+		color: rgb(153, 150, 150);
+	}
+
+	.botonlupa{
+		border:2px solid rgb(158, 155, 155);
+		border-left:0px;
+		background-color:#1e4861;
+		height:32px;
+		width: 1.5%;
+		float:left;
+		text-align:center;
+		margin:auto;
+		margin-top:3px;
+		opacity: 0.8;	
+	}
+
+	.iconolupa{
+		margin:auto;
+		margin-top:7px;
+		opacity:0.8;
+	}
+
+	#built{
+		height:650px;
+		background: url("/Users/nuriatired/Documents/00-PreWork/CLONACION/lab-html-module-exercise-master/starter-code/images/city-scape.svg");
+		background-size: cover;
+		/*padding-top:0;*/
+		background-color:#245a79;
+		position: relative;
+		/* border:10px solid red; */
+		line-height: 3.5em;
+	}
+
+	#builtEQ {
+		margin:auto;
+		margin-left:150px;
+		margin-right:150px;
+		border:1px solid purple;
+		height:638px;
+		width: auto;
+	}
+	.H1titulo {
+		/* border:6px solid rgb(228, 181, 228); */
+		margin:auto;
+		margin-top:80px;
+		float:left;
+		width: 100%;
+		color:white;
+	}
+
+	.H1p {
+		/* border:6px solid rgb(132, 155, 122); */
+		color:white;
+		width: 35%;
+		margin-top:215px;
+		font-size:2em;
+		margin-left:20px;
+		line-height: 30px;
+		letter-spacing: 1.5px;
+	}
+
+	.H1btn{
+		/* border:6px solid rgb(219, 218, 145); */
+		width:35%;
+		margin:auto;
+		margin-left:20px;
+		float:left;
+	}
+
+	.link-btn {
+	border-radius: 40px ;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	margin: 60px auto 0;
+	padding: 7px 50px 8px 50px;
+	text-align: center;
+	text-decoration: none;
+	width: 200px;
+	}
+
+/* SECTION 1------------------------------------------------------------- */
+
+#section1{
+  	background-color: rgb(39, 53, 71);
+    /* border:12px solid blue; */
+	height:800px;
+	line-height: 3.5em;
+}
+#sec1{
+  color:white;
+  margin:auto;
+  /* border:10px solid red; */
+  margin-left: 150px;
+  margin-right: 150px;
+  width: auto;
+	height:780px;
+	background-repeat: no-repeat;
+	background-color: rgb(39, 53, 71);
+}
+
+#sec1 img{
+  /* border:6px solid green; */
+  margin:auto;
+  margin-top:150px;
+  /* margin-right:300px; */
+	float: left;
+	width: 50%;
+ 	max-width: 100%;
+	text-align: center;
+}
+
+#textsec1{
+  /* border:6px solid purple; */
+  float:right;
+  width: 45%;
+  font-size: 1.3em;
+	margin:auto;
+	margin-top:150px;
+	margin-bottom:0;
+
+}
+.bred {
+	background-color: rgb(156, 64, 79);
+}
+
+#twhite{
+	color:white;
+	text-decoration: none;
+	font-size: 9px;
+	/* list-style-type: none; */
+}
+
+.S1heading{
+	font-size: 15px;
+	letter-spacing: 1.5px;
+
+}
+.S1list {
+	/* border:6px solid rgb(207, 154, 6); */
+	width: 100%;
+	float: left;
+	letter-spacing: 0.5px;
+	margin-left: 30px;
+
+}
+
+.S1boton {
+	/* border:6px solid rgb(59, 192, 174); */
+	margin:auto;
+	margin-top:10px;
+	float: left;
+	margin-left:30px;
+	line-height: 32px;
+}
+
+
+
+
+/* SECTION 2------------------------------------------------------------- */
+
+#section2{
+	height:650px;
+	background: url("/Users/nuriatired/Documents/00-PreWork/CLONACION/lab-html-module-exercise-master/starter-code/images/forklift.svg");
+	background-size: cover;
+	/*padding-top:0;*/
+	background-color:#245a79;
+	position: relative;
+	/* border: 1px solid #17212e; */
+	line-height: 3.5em;
+}
+
+.H2titulo {
+	/* border:6px solid rgb(228, 181, 228); */
+	margin:auto;
+	margin-top:80px;
+	float:left;
+	width: 100%;
+	color:white;
+}
+
+#H2S2{
+	font-size:1.5em;
+}
+
+.bazul{
+	background-color: rgb(39, 53, 71);
+}
+
+
+/* SECTION 3--------------------------------------------------------------*/
+
+
+#section3{
+	/* border:6px solid red; */
+	width: 100%;
+	height: 650px;
+	text-align: center;
+	line-height: 3.5em;
+}
+
+.boxing{
+/* border:6px solid rgb(50, 90, 143); */
+width: 70%;
+height:50%;
+margin:auto;
+margin-top:10px;
+text-align:center;
+line-height: 30px;
+
+}
+
+.boxing1{
+	float:left;
+	text-align: center;
+	/* border:6px solid purple; */
+	box-sizing: border-box;
+	margin:auto;
+	text-align: center;
+	padding:30px 150px 30px 150px;
+	width: 33.3%;
+	line-height: 32px;
+}
